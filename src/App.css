@@ -30,7 +30,7 @@ header{
 }
 /* ----BLOCK - main---- */
 
-.main{
+.main__block{
     margin-top: 50px;
 }
 .section_ul{
@@ -42,4 +42,8 @@ header{
     padding: 5px 10px 0px;
     margin-bottom: 10px; 
     border-radius: 10px;
+}
+
+.centered{
+    align-items: center;
 }

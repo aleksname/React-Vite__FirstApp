@@ -20,6 +20,7 @@ export const ways = [
         '4sit amet, consectetur adipisicing elit. Similique.sit amet, consectetur adipisicing elit. Similique.sit amet, consectetur adipisicing elit. Similique.'
     },
     
+    
 ]
 
 export const differences = {
