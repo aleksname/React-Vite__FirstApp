@@ -1,4 +1,4 @@
-// рефакторінг
+// коретктний рефакторінг 
 import { ways } from "../data"
 import ReturnElementLi from './ReturnElementLi'
 
