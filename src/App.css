@@ -44,6 +44,8 @@ header{
     border-radius: 10px;
 }
 
-.centered{
-    align-items: center;
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

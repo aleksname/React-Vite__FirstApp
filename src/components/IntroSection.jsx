@@ -12,11 +12,10 @@ import '../App.css'
 // export default IntroSection
 
 function IntroSection() {
-    return (
-        React.createElement('section',
-        null,
-        React.createElement('h1', { className: "centered" }, 'Lorem'))
-    )
+    return React.createElement('section', null,[
+    React.createElement('h1', { className: "centered", key: 1}, 'Lorem'),
+    React.createElement('h2', { className: "centered", style: {color: '#666'}, key: 2}, 'sit amet consectetur adipisicing elit.'),
+    ])
 }
 
 export default IntroSection

@@ -2,9 +2,12 @@ import './App.css'
 import Header from './components/Header'
 import CopySection from './components/CopySection'
 import SecondMainSection from './components/SecondMainSection'
-import IntroSection from './components/IntroSection'
+import IntroSection from './components/introSection'
+import TabsSection from './components/TabsSection'
+import FeedbackSection from './components/FeedbackSection'
 
 function App() {
+  const [tab, setTab] = useState('feedback')
   return (
     <>
       <div className='wrapper'>
@@ -12,12 +15,15 @@ function App() {
           <Header/>
         </div>
         <main className='main__block'>
-          <IntroSection/>
+          <IntroSection />
+          <TabsSection />
+          
           <section className='section__block'>
             <CopySection/>
           </section>
           <section className='section__block'> 
-            <SecondMainSection/>
+            <SecondMainSection />
+            {/* <FeedbackSection/> */}
           </section>
         </main>
     </div> 
