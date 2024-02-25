@@ -1,29 +1,23 @@
-import { useState } from 'react'
-import logo from '/golova.png'
-import  './Header.css'
-import {styled } from 'styled-components'
-
-const HeaderComponent = styled.header`
-   display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5px 10px 5px;
-    border-bottom: 2px solid #0000007d; 
-`
+import logo from '../img/logo.png'
+import './Header.css'
 
 function Header() {
-  const [now, setNow] = useState(new Date())
-
-  setInterval(() => setNow(new Date()),1000)
     return (
-    <HeaderComponent>
-        <div className="header__block-logo">
-            <p className="header__text">My Portfolio!</p>
-            <img src={logo} alt="logo" className='header__logo' />
+        <div className="header">
+            <div className="header__logotype">
+                <img src={logo} alt="logotype" className='header__logo'/>
+                <strong className="header__title">Survey site</strong>
+            </div>
+            <nav className='header__nav'>
+                <ul className='header__ul'>
+                    <li className='header__li'><a href="#" className='header__a'>Тренуй мозок</a></li>
+                    <li className='header__li'><a href="#" className='header__a'>Рефлексія</a></li>
+                    <li className='header__li'><a href="#" className='header__a'>Детальніше</a></li>
+                    <li className='header__li'><a href="#" className='header__a'><span className='header__span'>Статистика студента</span></a></li>
+                </ul>
+            </nav>
         </div>
-          <span>Time: {now.toLocaleTimeString()}</span>
-        </HeaderComponent>
     )
-  }
+}
 
 export default Header

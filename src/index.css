@@ -1,0 +1,26 @@
+:root {
+  --color_normal: #5a5149;
+  --color_hover: #AB794E;
+  --color_active: #A56732;
+}
+body{
+    background: url('../src/components/img/background__Brain.png');
+    background-attachment: fixed;
+}
+
+ .start__screen{
+    margin: 0 auto;
+    max-width: 1050px;
+    background-color: #ffffff93;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 50px;
+}
+.brain__title{
+    color: #9A7555;
+    font-size: 36px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+
+
