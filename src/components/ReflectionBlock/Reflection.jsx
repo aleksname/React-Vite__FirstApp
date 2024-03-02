@@ -15,7 +15,18 @@ function Reflection() {
                        Напиши, що тобі сподобалось в уроці найбільше
                     </p>
 
-                    <input type="text" className="reflection__input" netlify maxLength={500} placeholder='Мені дуже сподобалось на цьому уроці -' />
+                    <input type="text" className="reflection__input" maxLength={500} placeholder='Мені дуже сподобалось на цьому уроці -' />
+                    <form name="contact" netlify>
+                        <p>
+                            <label>Name <input type="text" name="name" /></label>
+                        </p>
+                        <p>
+                            <label>Email <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                        </form>
                     <p className="reflection__input_subtitle">
                        Максимальна кількість символів: 500
                     </p>
