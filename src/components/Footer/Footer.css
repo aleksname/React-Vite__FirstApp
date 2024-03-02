@@ -9,8 +9,6 @@
     padding: 50px 0px 50px 0px;
 }
 
-
-
 .footer__logotype{
     display: flex;
     align-items: center;
@@ -28,29 +26,60 @@
 }
 
 /* ---------contact info--------- */
-.contact__block{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-}
-.contact__phone{
-    text-decoration: none;
-    color: var(--color_normal);
-}
-.contact__phone:hover{
-    color: var(--color_hover);
-}
-.contact__phone:active{
-    color: var(--color_active);
+.contact__block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
-.contact__mail{
-    text-decoration: none;
-    color: var(--color_normal);
+.contact__block ul {
+    display: flex;
+    align-items: center;
 }
-.contact__mail:hover{
-    color: var(--color_hover);
+
+.contact__block a{
+    border: 1px solid var(--color_normal);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
-.contact__mail:active{
-    color: var(--color_active);
+.contact__phones-li,
+.contact__mails-li {
+  list-style: none;
+}
+.contact__phones-li{
+    margin-right: 10px;
+}
+.contact__phone {
+  text-decoration: none;
+  color: var(--color_normal);
+}
+
+.contact__phone:hover {
+  color: var(--color_hover);
+}
+
+.contact__phone:active {
+  color: var(--color_active);
+}
+
+.contact__mail {
+  text-decoration: none;
+  color: var(--color_normal);
+}
+
+.contact__mail:hover {
+  color: var(--color_hover);
+}
+
+.contact__mail:active {
+  color: var(--color_active);
+}
+
+/* ------Footer Test------- */
+
+.footer__test{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
