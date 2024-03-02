@@ -4,11 +4,19 @@
     margin: 0 auto;
     max-width: 1050px;
     background-color: #ffffff93;
-    padding: 0px 10px 50px 10px;
+    padding: 10px 10px 50px 10px;
     margin-bottom: 50px;  
     position: relative;
+    border-radius: 10px;
 }
 .reflection__block{
+    background-color: rgba(255, 255, 255, 0.559);
+    border-radius: 10px;
+    max-width: 920px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px 0 20px 20px;
+
 }
 
 .reflection__title, .reflection__rating_block{

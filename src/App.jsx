@@ -5,6 +5,7 @@ import TabsSection from './components/TabsSection'
 import AnogramPage from './components/AnogramPage'
 import Crossword from './components/Crossword'
 import Reflection from './components/ReflectionBlock/Reflection'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [tab, setTab] = useState('anograma')
@@ -24,8 +25,9 @@ function App() {
       </div> 
         <div className="reflection__blocks">
           <Reflection />
-        </div>
       </div>
+      <Footer/>
+    </div>
   )
 }
 

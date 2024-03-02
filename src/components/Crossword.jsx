@@ -1,6 +1,5 @@
 // коретктний рефакторінг 
 // import { ways } from "../data"
-import ReturnElementLi from './ReturnElementLi'
 import logo from './img/crossword.png'
 
 function Crossword(){
